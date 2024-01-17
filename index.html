@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link type="text/css" rel="stylesheet" href="./style/stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="Home Page Game Hub Corner" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Amelia Bujar">
+    <title>Home Page Game Hub Corner</title>
+</head>
+
+<body>
+
+    <header class="page-header">
+            <div id="mySidenav" class="sidenav">
+                <a href="./js/script.js" class="closebtn" onclick="closeNav()">&times;</a>
+                <h2>Game Hub Corner</h2>
+                <a href="index.html">Home Page</a>
+                <a href="locations.html">Stores Locations</a>
+                <a href="about.html">About Us</a>
+                <a href="login.html">Login</a>
+                <a href="trade.html">Trade Old Games</a>
+                <br>
+                <h2>Products</h2>
+                <a href="funko.html">Funko Pops</a>
+                <a href="consols.html">Gaming Consols</a>
+                <a href="pc.html">Gaming PC</a>
+                <a href="brand.html">Brand Products</a>
+                <a href="gaming.html">Gaming Accesories</a>
+                <a href="chairs.html">Gaming Desks / Chairs</a>
+                <a href="screens.html">Gaming Screens</a>
+                <a href="pre-order.html">Pre-Order Games</a>
+                <a href="best.html">Best-Sellers</a>
+                <a href="toys.html">Collecatbles</a>
+                <a href="cards.html">Trading Cards</a>
+                <a href="merch.html">Merchdize</a>
+                <a href="new.html">New Releases</a>
+                <a href="deals.html">Deals</a>
+                <br>
+                <h2>What Game Hub Corner Has To Offer</h2>
+                <a href="pro.html">Become A Pro</a>
+                <a href="gidt-cards.html">Gift Cards</a>
+                <a href="vouchers.html">Vouchers</a>
+                <a href="carriers.html">Work</a>
+                <a href="discounts.html">Discounts As A Pro Member</a>
+                <a href="investor.html">Become An Investor</a>
+                <a href="reviews.html">Our Game Reviews</a>
+                <br>
+                <h2>Customer Help</h2>
+                <a href="track.html">Track Your Packages</a>
+                <a href="transport.html">Transportation Damage</a>
+                <a href="complaint.html">Complaint</a>
+                <a href="return.html">Return</a>
+                <a href="custumer-service.html">Service</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html">Contact Us</a>
+                <br>
+                <h2>Additional Information</h2>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="payment.html">Payment Methods</a>
+                <a href="conditions.html">Conditions</a>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+        <div class="header-left">
+            <div class="logo-container">
+                <a href="index.html"><p><b>Game Hub Corner</b><br>By Gamers For Gamers</p></a>
+            </div>
+        </div>
+        <div class="middle-header">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder ="Search.......">
+                <button onclick ="search()">Search</buttom>
+            </div>
+            <div id="searchResults">
+                <script src="./js/script.js"></script>
+            </div>
+        </div>
+        <div class="icons-header">
+            <a href="login.html">
+                <img src="./icons/icons8-account-100.png">
+            </a>
+            <a href="cart.html">
+                <img src="./icons/icons8-cart-96.png">
+            </a>
+        </div>
+    </header>
+
+    <main class="page-body">
+        <!--Flex Box For Icons Under The Header-->
+        <div class="flex-icons wrap">
+           <div class="top">
+               <div id="icon">
+                   <img src="./icons/icons8-handshake-64.png">
+               </div>
+               <div class="icon-button">
+                   <a href="deals.html">Top Deals</a>
+               </div>
+           </div>
+           <div class="sellers">
+               <div id="icon">
+                   <img src="./icons/icons8-best-67.png">
+               </div>
+               <div class="icon-button">
+                   <a href="sellers.html">Top Sellers</a>
+               </div>
+           </div>
+           <div class="new">
+               <div id="icon">
+                   <img src="./icons/icons8-new-100.png">
+               </div>
+               <div class="icon-button">
+                   <a href="releases.html">New Releases</a>
+               </div>
+           </div>
+           <div class="merch">
+               <div id="icon">
+                   <img src="./icons/icons8-merchandise-64.png">
+               </div>
+               <div class="icon-button">
+                   <a href="merch.html">Merchandise</a>
+               </div>
+           </div>
+           <div class="toys">
+               <div id="icon">
+                   <img src="./icons/icons8-collectibles-64.png">
+               </div>
+               <div class="icon-button">
+                   <a href="toys.html">Collecatbles</a>
+               </div>
+           </div>
+           <div class="consols">
+               <div id="icon">
+                   <img src="./icons/icons8-gaming-center-base-96.png">
+               </div>
+               <div class="icon-button">
+                   <a href="consols.html">Consoles</a>
+               </div>
+           </div>
+           <div class="gaming">
+               <div id="icon">
+                   <img src="./icons/icons8-equipment-64.png">
+               </div>
+               <div class="icon-button">
+                   <a href="gaming.html">Accesories</a>
+               </div>
+           </div>
+           <div class="track">
+               <div id="icon">
+                   <img src="./icons/icons8-worldwide-delivery-96.png">
+               </div>
+               <div class="icon-button">
+                   <a href="track.html">Tracking Orders</a>
+               </div>
+           </div>
+           <div class="pro">
+               <div id="icon">
+                   <img src="./icons/icons8-membership-96.png">
+               </div>
+               <div class="icon-button">
+                   <a href="pro.html">Become A Pro</a>
+               </div>
+           </div>
+           <div class="login">
+               <div id="icon">
+                   <img src="./icons/icons8-login-64.png">
+               </div>
+               <div class="icon-button">
+                   <a href="login.html">Login</a>
+               </div>
+           </div>
+           <div class="trade">
+               <div id="icon">
+                   <img src="./icons/icons8-trade-96.png">
+               </div>
+               <div class="icon-button">
+                   <a href="trade.html">Trade</a>
+               </div>
+           </div>
+       </div>
+   
+   
+       <!--First Add Code -->
+       <div class="hero-image3">
+           <div class="hero-text3">
+               <h2>Dont Be A Numb And Become A Pro And Get 20% Off On Your Every Purcahse In Store And Online</h2>
+               <p><b>Benefits Of Becoming An GameHub Pro Member</b></p>
+               <p>1. Discounts On Online And In-Store Purchases</p>
+               <p>2. Early Access To Pre-Ordered Games</p>
+               <p>3. 50% Off On Amazong Prime Streaming Service</p>
+               <p>4. 45% Off On Comic-Con Tickets</p>
+               <p>5. Special Events For Members Only</p>
+               <div class="small-button">
+                   <a href="pro.html">Become A GameHub Pro Today</a>
+               </div>
+           </div>
+       </div>
+   
+       <!--Popular Designer Items-->
+       <div class="flex-designer around">
+           <div class="icons-title">
+               <p><b>Brand Products</b></p>
+           </div>
+           <br>
+           <div id="apple">
+               <div id="designer-button">
+                   <a href="./designer/designer-apple.html">
+                       <div id="desinger-icon">
+                           <img src="./icons/icons8-apple-100.png">
+                       </div>
+                   </a>
+               </div>
+           </div>
+           <div id="samsung">
+               <div id="designer-button">
+                   <a href="./designer/designer-samsung.html">
+                       <div id="desinger-icon">
+                           <img src="./icons/icons8-samsung-80.png">
+                       </div>
+                   </a>
+               </div>
+           </div>
+           <div id="google">
+               <div id="designer-button">
+                   <a href="./designer/designer-google.html">
+                       <div id="desinger-icon">
+                           <img src="./icons/icons8-google-100.png">
+                       </div>
+                   </a>
+               </div>
+           </div>
+           <div id="huawei">
+               <div id="designer-button">
+                   <a href="./designer/designer-huawei.html">
+                       <div id="desinger-icon">
+                           <img src="./icons/icons8-huawei-67.png">
+                       </div>
+                   </a>
+               </div>
+           </div>
+           <div id="xiaomi">
+               <div id="designer-button">
+                   <a href="./designer/designer-xiaomi.html">
+                       <div id="desinger-icon">
+                           <img src="./icons/icons8-xiaomi-100.png">
+                       </div>
+                   </a>
+               </div>
+           </div>
+           <div id="xbox">
+               <div id="designer-button">
+                   <a href="./designer/designer-xbox.html">
+                       <div id="desinger-icon">
+                           <img src="./icons/icons8-xbox-100.png">
+                       </div>
+                   </a>
+               </div>
+           </div>
+           <div id="playstation">
+               <div id="designer-button">
+                   <a href="./designer/designer-playstation.html">
+                       <div id="desinger-icon">
+                           <img src="./icons/icons8-playstation-100.png">
+                       </div>
+                   </a>
+               </div>
+           </div>
+           <div id="nintendo">
+               <div id="designer-button">
+                   <a href="./designer/designer-nintendo.html">
+                       <div id="desinger-icon">
+                           <img src="./icons/icons8-nintendo-100.png">
+                       </div>
+                   </a>
+               </div>
+           </div>
+           <div id="gameboy">
+               <div id="designer-button">
+                   <a href="./designer/designer-retro.html">
+                       <div id="desinger-icon">
+                           <img src="./icons/icons8-gameboy-98.png">
+                       </div>
+                   </a>
+               </div>
+           </div>
+           <div id="arcade">
+               <div id="designer-button">
+                   <a href="./designer/designer-arcade.html">
+                       <div id="desinger-icon">
+                           <img src="./icons/icons8-arcade-64.png">
+                       </div>
+                   </a>
+               </div>
+           </div>
+           <div id="ubisoft">
+               <div id="designer-button">
+                   <a href="./designer/designer-ubisoft.html">
+                       <div id="desinger-icon">
+                           <img src="./icons/icons8-ubisoft-100.png">
+                       </div>
+                   </a>
+               </div>
+           </div>
+           <div id="epic-games">
+               <div id="designer-button">
+                   <a href="./designer/designer-epic.html">
+                       <div id="desinger-icon">
+                           <img src="./icons/icons8-epic-games-100.png">
+                       </div>
+                   </a>
+               </div>
+           </div>
+           <div id="wii">
+               <div id="designer-button">
+                   <a href="./designer/designer-wii.html">
+                       <div id="desinger-icon">
+                           <img src="./icons/icons8-wii-100.png">
+                       </div>
+                   </a>
+               </div>
+           </div>
+           <div id="microsoft">
+               <div id="designer-button">
+                   <a href="./designer/designer-microsoft.html">
+                       <div id="desinger-icon">
+                           <img src="./icons/icons8-microsoft-90.png">
+                       </div>
+                   </a>
+               </div>
+           </div>
+           <div id="rockstar">
+               <div id="designer-button">
+                   <a href="./designer/designer-rockstar.html">
+                       <div id="desinger-icon">
+                           <img src="./icons/icons8-rockstar-96.png">
+                       </div>
+                   </a>
+               </div>
+           </div>
+           <div id="sega">
+               <div id="designer-button">
+                   <a href="./designer/designer-sega.html">
+                       <div id="desinger-icon">
+                           <img src="./icons/icons8-sega-a-japanese-multinational-video-game-developer-and-publisher-company-96.png">
+                       </div>
+                   </a>
+               </div>
+           </div>
+       </div>
+   
+        <!--Main Hero Content-->
+        <div class="flex-parent around">
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h2>Buy One, Get One</h2>
+                    <h4>Choose From Wide Range Of Funko Pops</h4>
+                    <a href="funkopop.html">Take A Look At Our Funko Pops For Sale</a>
+                </div>
+            </div>
+            <div class="hero-image1">
+                <div class="hero-text1">
+                    <h2>Massive Sale</h2>
+                    <h4>Game Hub Have Currently A Massive Sale On Almost All Products</h4>
+                    <a href="sale.html">Check Out Our Sale Campain And Save Up To $500</a>
+                </div>
+            </div>
+            <div class="hero-image2">
+                <div class="hero-text2">
+                    <h2>Pre-Order Now </h2>
+                    <h4>Pre-Order Games For Xbox, PlayStation And Pc And Get A Free Merchize Item As A Gift</h3>
+                    <a href="pre-orderx.html">Take A Look At What Games You Can Pre Order</a>
+                </div>
+            </div>
+        </div>
+   </main>
+   
+   <footer class="page-footer">
+       <div class="flex-left-footer column">
+           <p><b>Need Help With Anything?</b></p>
+           <a href="contact.html">Contact GameHub</a>
+           <a href="location.html">HeadQuraters</a>
+           <p><b>E-mail</b></p>
+           <p>GameHub@Gmail.com</p>
+           <p><b>Phone Number</b></p>
+           <p>+1 123 456 789</p>
+       </div>
+       <div class="flex-midle-footer column">
+           <p><b>Become A Member</b></p>
+           <a href="pro.html">Become A Pro</a>
+           <a href="login.html">Login</a>
+           <a href="trade.html">Trade Your Old Games For New Games</a>
+       </div>
+       <div class="flex-right-footer column">
+           <p><b>Special Access</b></p>
+           <a href="sale.html">Our Sales</a>
+           <a href="funkopop.html">Buy One, Get One</a>
+           <a href="pre-order.html">Pre-Order Your New Game Now</a>
+       </div>
+   </footer>
+</body>
+
+</html>
